@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00AC33B1FD133B50058B395 /* AssassinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00AC3391FD133B40058B395 /* AssassinTableViewCell.swift */; };
+		A00AC33C1FD133B50058B395 /* AssassinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00AC33A1FD133B40058B395 /* AssassinTableViewController.swift */; };
+		A00DB9691FCA742F007B2E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00DB9681FCA742F007B2E24 /* AppDelegate.swift */; };
+		A00DB96B1FCA742F007B2E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00DB96A1FCA742F007B2E24 /* ViewController.swift */; };
+		A00DB96E1FCA742F007B2E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00DB96C1FCA742F007B2E24 /* Main.storyboard */; };
+		A00DB9701FCA742F007B2E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00DB96F1FCA742F007B2E24 /* Assets.xcassets */; };
+		A00DB9731FCA742F007B2E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00DB9711FCA742F007B2E24 /* LaunchScreen.storyboard */; };
+		A00DB97E1FCA7430007B2E24 /* Assassins_CharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00DB97D1FCA7430007B2E24 /* Assassins_CharactersTests.swift */; };
+		A00DB9891FCA7430007B2E24 /* Assassins_CharactersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00DB9881FCA7430007B2E24 /* Assassins_CharactersUITests.swift */; };
+		B46099F7ED3E539B51EF992F /* Pods_Assassins_Characters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3B402BC0BA9BF13A759781 /* Pods_Assassins_Characters.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00DB97A1FCA7430007B2E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00DB95D1FCA742F007B2E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00DB9641FCA742F007B2E24;
+			remoteInfo = Assassins_Characters;
+		};
+		A00DB9851FCA7430007B2E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00DB95D1FCA742F007B2E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00DB9641FCA742F007B2E24;
+			remoteInfo = Assassins_Characters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48B09A8E7434465353DD17B0 /* Pods-Assassins_Characters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assassins_Characters.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assassins_Characters/Pods-Assassins_Characters.debug.xcconfig"; sourceTree = "<group>"; };
+		6E91159E549B173B37678594 /* Pods-Assassins_Characters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assassins_Characters.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assassins_Characters/Pods-Assassins_Characters.release.xcconfig"; sourceTree = "<group>"; };
+		A00AC3391FD133B40058B395 /* AssassinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssassinTableViewCell.swift; sourceTree = "<group>"; };
+		A00AC33A1FD133B40058B395 /* AssassinTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssassinTableViewController.swift; sourceTree = "<group>"; };
+		A00DB9651FCA742F007B2E24 /* Assassins_Characters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assassins_Characters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00DB9681FCA742F007B2E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00DB96A1FCA742F007B2E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00DB96D1FCA742F007B2E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00DB96F1FCA742F007B2E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00DB9721FCA742F007B2E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00DB9741FCA742F007B2E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00DB9791FCA7430007B2E24 /* Assassins_CharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assassins_CharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00DB97D1FCA7430007B2E24 /* Assassins_CharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assassins_CharactersTests.swift; sourceTree = "<group>"; };
+		A00DB97F1FCA7430007B2E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00DB9841FCA7430007B2E24 /* Assassins_CharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assassins_CharactersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00DB9881FCA7430007B2E24 /* Assassins_CharactersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assassins_CharactersUITests.swift; sourceTree = "<group>"; };
+		A00DB98A1FCA7430007B2E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3B402BC0BA9BF13A759781 /* Pods_Assassins_Characters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assassins_Characters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00DB9621FCA742F007B2E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46099F7ED3E539B51EF992F /* Pods_Assassins_Characters.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DB9761FCA7430007B2E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DB9811FCA7430007B2E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B2DC4B5E26913626A888DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48B09A8E7434465353DD17B0 /* Pods-Assassins_Characters.debug.xcconfig */,
+				6E91159E549B173B37678594 /* Pods-Assassins_Characters.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83AA531BFD25C18B897172BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3B402BC0BA9BF13A759781 /* Pods_Assassins_Characters.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00DB95C1FCA742F007B2E24 = {
+			isa = PBXGroup;
+			children = (
+				A00DB9671FCA742F007B2E24 /* Assassins_Characters */,
+				A00DB97C1FCA7430007B2E24 /* Assassins_CharactersTests */,
+				A00DB9871FCA7430007B2E24 /* Assassins_CharactersUITests */,
+				A00DB9661FCA742F007B2E24 /* Products */,
+				48B2DC4B5E26913626A888DC /* Pods */,
+				83AA531BFD25C18B897172BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A00DB9661FCA742F007B2E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00DB9651FCA742F007B2E24 /* Assassins_Characters.app */,
+				A00DB9791FCA7430007B2E24 /* Assassins_CharactersTests.xctest */,
+				A00DB9841FCA7430007B2E24 /* Assassins_CharactersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00DB9671FCA742F007B2E24 /* Assassins_Characters */ = {
+			isa = PBXGroup;
+			children = (
+				A00DB9681FCA742F007B2E24 /* AppDelegate.swift */,
+				A00DB96A1FCA742F007B2E24 /* ViewController.swift */,
+				A00AC3391FD133B40058B395 /* AssassinTableViewCell.swift */,
+				A00AC33A1FD133B40058B395 /* AssassinTableViewController.swift */,
+				A00DB96C1FCA742F007B2E24 /* Main.storyboard */,
+				A00DB96F1FCA742F007B2E24 /* Assets.xcassets */,
+				A00DB9711FCA742F007B2E24 /* LaunchScreen.storyboard */,
+				A00DB9741FCA742F007B2E24 /* Info.plist */,
+			);
+			path = Assassins_Characters;
+			sourceTree = "<group>";
+		};
+		A00DB97C1FCA7430007B2E24 /* Assassins_CharactersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00DB97D1FCA7430007B2E24 /* Assassins_CharactersTests.swift */,
+				A00DB97F1FCA7430007B2E24 /* Info.plist */,
+			);
+			path = Assassins_CharactersTests;
+			sourceTree = "<group>";
+		};
+		A00DB9871FCA7430007B2E24 /* Assassins_CharactersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00DB9881FCA7430007B2E24 /* Assassins_CharactersUITests.swift */,
+				A00DB98A1FCA7430007B2E24 /* Info.plist */,
+			);
+			path = Assassins_CharactersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00DB9641FCA742F007B2E24 /* Assassins_Characters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00DB98D1FCA7430007B2E24 /* Build configuration list for PBXNativeTarget "Assassins_Characters" */;
+			buildPhases = (
+				AD02360137C242F918E7311A /* [CP] Check Pods Manifest.lock */,
+				A00DB9611FCA742F007B2E24 /* Sources */,
+				A00DB9621FCA742F007B2E24 /* Frameworks */,
+				A00DB9631FCA742F007B2E24 /* Resources */,
+				393AE9A14CB1C04C2C7E66EF /* [CP] Embed Pods Frameworks */,
+				A61AADECB28C06BA5287805F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assassins_Characters;
+			productName = Assassins_Characters;
+			productReference = A00DB9651FCA742F007B2E24 /* Assassins_Characters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00DB9781FCA7430007B2E24 /* Assassins_CharactersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00DB9901FCA7430007B2E24 /* Build configuration list for PBXNativeTarget "Assassins_CharactersTests" */;
+			buildPhases = (
+				A00DB9751FCA7430007B2E24 /* Sources */,
+				A00DB9761FCA7430007B2E24 /* Frameworks */,
+				A00DB9771FCA7430007B2E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00DB97B1FCA7430007B2E24 /* PBXTargetDependency */,
+			);
+			name = Assassins_CharactersTests;
+			productName = Assassins_CharactersTests;
+			productReference = A00DB9791FCA7430007B2E24 /* Assassins_CharactersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00DB9831FCA7430007B2E24 /* Assassins_CharactersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00DB9931FCA7430007B2E24 /* Build configuration list for PBXNativeTarget "Assassins_CharactersUITests" */;
+			buildPhases = (
+				A00DB9801FCA7430007B2E24 /* Sources */,
+				A00DB9811FCA7430007B2E24 /* Frameworks */,
+				A00DB9821FCA7430007B2E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00DB9861FCA7430007B2E24 /* PBXTargetDependency */,
+			);
+			name = Assassins_CharactersUITests;
+			productName = Assassins_CharactersUITests;
+			productReference = A00DB9841FCA7430007B2E24 /* Assassins_CharactersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00DB95D1FCA742F007B2E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hilmy Corp.";
+				TargetAttributes = {
+					A00DB9641FCA742F007B2E24 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A00DB9781FCA7430007B2E24 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00DB9641FCA742F007B2E24;
+					};
+					A00DB9831FCA7430007B2E24 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00DB9641FCA742F007B2E24;
+					};
+				};
+			};
+			buildConfigurationList = A00DB9601FCA742F007B2E24 /* Build configuration list for PBXProject "Assassins_Characters" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00DB95C1FCA742F007B2E24;
+			productRefGroup = A00DB9661FCA742F007B2E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00DB9641FCA742F007B2E24 /* Assassins_Characters */,
+				A00DB9781FCA7430007B2E24 /* Assassins_CharactersTests */,
+				A00DB9831FCA7430007B2E24 /* Assassins_CharactersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00DB9631FCA742F007B2E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DB9731FCA742F007B2E24 /* LaunchScreen.storyboard in Resources */,
+				A00DB9701FCA742F007B2E24 /* Assets.xcassets in Resources */,
+				A00DB96E1FCA742F007B2E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DB9771FCA7430007B2E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DB9821FCA7430007B2E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		393AE9A14CB1C04C2C7E66EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Assassins_Characters/Pods-Assassins_Characters-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assassins_Characters/Pods-Assassins_Characters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61AADECB28C06BA5287805F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assassins_Characters/Pods-Assassins_Characters-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD02360137C242F918E7311A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Assassins_Characters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00DB9611FCA742F007B2E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00AC33C1FD133B50058B395 /* AssassinTableViewController.swift in Sources */,
+				A00DB96B1FCA742F007B2E24 /* ViewController.swift in Sources */,
+				A00AC33B1FD133B50058B395 /* AssassinTableViewCell.swift in Sources */,
+				A00DB9691FCA742F007B2E24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DB9751FCA7430007B2E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DB97E1FCA7430007B2E24 /* Assassins_CharactersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DB9801FCA7430007B2E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DB9891FCA7430007B2E24 /* Assassins_CharactersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00DB97B1FCA7430007B2E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00DB9641FCA742F007B2E24 /* Assassins_Characters */;
+			targetProxy = A00DB97A1FCA7430007B2E24 /* PBXContainerItemProxy */;
+		};
+		A00DB9861FCA7430007B2E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00DB9641FCA742F007B2E24 /* Assassins_Characters */;
+			targetProxy = A00DB9851FCA7430007B2E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00DB96C1FCA742F007B2E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00DB96D1FCA742F007B2E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00DB9711FCA742F007B2E24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00DB9721FCA742F007B2E24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00DB98B1FCA7430007B2E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00DB98C1FCA7430007B2E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00DB98E1FCA7430007B2E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B09A8E7434465353DD17B0 /* Pods-Assassins_Characters.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = Assassins_Characters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.Assassins-Characters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00DB98F1FCA7430007B2E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E91159E549B173B37678594 /* Pods-Assassins_Characters.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = Assassins_Characters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.Assassins-Characters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00DB9911FCA7430007B2E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = Assassins_CharactersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.Assassins-CharactersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assassins_Characters.app/Assassins_Characters";
+			};
+			name = Debug;
+		};
+		A00DB9921FCA7430007B2E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = Assassins_CharactersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.Assassins-CharactersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assassins_Characters.app/Assassins_Characters";
+			};
+			name = Release;
+		};
+		A00DB9941FCA7430007B2E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = Assassins_CharactersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.Assassins-CharactersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Assassins_Characters;
+			};
+			name = Debug;
+		};
+		A00DB9951FCA7430007B2E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = Assassins_CharactersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.Assassins-CharactersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Assassins_Characters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00DB9601FCA742F007B2E24 /* Build configuration list for PBXProject "Assassins_Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00DB98B1FCA7430007B2E24 /* Debug */,
+				A00DB98C1FCA7430007B2E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00DB98D1FCA7430007B2E24 /* Build configuration list for PBXNativeTarget "Assassins_Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00DB98E1FCA7430007B2E24 /* Debug */,
+				A00DB98F1FCA7430007B2E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00DB9901FCA7430007B2E24 /* Build configuration list for PBXNativeTarget "Assassins_CharactersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00DB9911FCA7430007B2E24 /* Debug */,
+				A00DB9921FCA7430007B2E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00DB9931FCA7430007B2E24 /* Build configuration list for PBXNativeTarget "Assassins_CharactersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00DB9941FCA7430007B2E24 /* Debug */,
+				A00DB9951FCA7430007B2E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00DB95D1FCA742F007B2E24 /* Project object */;
+}
