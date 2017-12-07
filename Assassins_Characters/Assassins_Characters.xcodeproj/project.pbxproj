@@ -54,6 +54,7 @@
 		A00DB9841FCA7430007B2E24 /* Assassins_CharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assassins_CharactersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00DB9881FCA7430007B2E24 /* Assassins_CharactersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assassins_CharactersUITests.swift; sourceTree = "<group>"; };
 		A00DB98A1FCA7430007B2E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F943141FD8CE9E00768C83 /* asasin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asasin.jpg; sourceTree = "<group>"; };
 		DC3B402BC0BA9BF13A759781 /* Pods_Assassins_Characters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assassins_Characters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +130,7 @@
 				A00DB96A1FCA742F007B2E24 /* ViewController.swift */,
 				A00AC3391FD133B40058B395 /* AssassinTableViewCell.swift */,
 				A00AC33A1FD133B40058B395 /* AssassinTableViewController.swift */,
+				A0F943141FD8CE9E00768C83 /* asasin.jpg */,
 				A00DB96C1FCA742F007B2E24 /* Main.storyboard */,
 				A00DB96F1FCA742F007B2E24 /* Assets.xcassets */,
 				A00DB9711FCA742F007B2E24 /* LaunchScreen.storyboard */,
