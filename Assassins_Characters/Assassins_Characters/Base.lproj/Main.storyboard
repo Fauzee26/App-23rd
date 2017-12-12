@@ -77,7 +77,13 @@
                             <outlet property="delegate" destination="PYR-Ik-EKd" id="K52-fY-7Zn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="List Of Assassin" id="hAu-Rn-jXg"/>
+                    <navigationItem key="navigationItem" title="List Of Assassin" id="hAu-Rn-jXg">
+                        <barButtonItem key="rightBarButtonItem" title="About" id="Hye-fb-J89">
+                            <connections>
+                                <segue destination="yhq-Ya-LBQ" kind="modal" id="ezJ-yy-y6A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="modal" identifier="passData" id="Jof-fh-PCC"/>
                     </connections>
@@ -251,6 +257,7 @@
         <image name="French_Assassin_Insignia" width="431" height="519"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="sRg-3y-1W8"/>
         <segue reference="80Q-2R-sRc"/>
     </inferredMetricsTieBreakers>
 </document>
